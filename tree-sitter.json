@@ -1,0 +1,16 @@
+{
+  "grammars": [
+    {
+      "name": "mojolicious",
+      "scope": "text.html.mojolicious",
+      "file-types": ["html.ep"],
+      "highlights": "queries/highlights.scm",
+      "injections": "queries/injections.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Mojolicious (html.ep) grammar for tree-sitter"
+  }
+}

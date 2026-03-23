@@ -1,0 +1,15 @@
+[package]
+name = "tree-sitter-mojolicious"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Mojolicious (html.ep) grammar for tree-sitter"
+
+[lib]
+path = "bindings/rust/lib.rs"
+
+[dependencies]
+tree-sitter = ">= 0.20, < 0.25"
+
+[build-dependencies]
+cc = "1"
